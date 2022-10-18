@@ -38,11 +38,29 @@ jQuery(document).ready(function($) {
 	
 	$('.initactividades').slick({
     	"slidesToShow": 3 ,
-    	"slidesToScroll": 3
+    	"slidesToScroll": 3,
+    	responsive: [
+	    {
+	      breakpoint: 600,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	      },
+	    }
+	  ],
   	});
   	$('.initgaleria').slick({
     	"slidesToShow": 2 ,
-    	"slidesToScroll": 2
+    	"slidesToScroll": 2,
+    	responsive: [
+	    {
+	      breakpoint: 600,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	      },
+	    }
+	  ],
   	});
   	$('.inittestimonios').slick({
     	"slidesToShow": 1 ,

@@ -811,3 +811,254 @@ h1,h2,h3,h4,h5,h6,p{ margin: 0; padding: 0; }
     }
 
 
+    /* ==========================================================================
+                                ESTILOS CELULARES
+   ========================================================================== */
+  @media screen and (max-width: 640px) {
+    .center-header{ width: 290px; }
+    .menu-header{ display: none; }
+    .logo {
+        width: 100px;
+        float: inherit;
+        margin: auto;
+    }
+    .center-slider-home{ width: 290px; height: 415px; }
+    .box-text-slide{ width: 290px; height: 100px; margin-top: 50px; }
+    .box-text-slide h1{ font-size: 19px; }
+    .box-text-slide h2{ font-size: 16px; }
+    .personaje-slide{ width: 290px; }
+    .slider-home{ height: 415px; }
+    .seccion-contacto{ width: 290px; }
+    .box-rss{ margin-bottom: 20px; }
+    .seccion-contacto {
+        width: 290px;
+        height: 410px;
+    }
+    .seccion-piac {
+        width: 224px;
+        height: 680px;
+        background-color: #fff;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 60px;
+        border: 3px solid #1F2E51;
+        border-radius: 16px;
+        padding: 30px;
+    }
+    .seccion-piac h1, .seccion-mision h1, .seccion-team h1, .seccion-actividades h1, .seccion-galeria h1, .seccion-quees h1, .seccion-form h1 {
+        font-size: 26px;
+    }
+    .seccion-piac p {
+        font-size: 14px;
+    }
+    .seccion-piac::before {
+        content: '';
+        width: 300px;
+        height: 746px;
+        background-color: #1F2E51;
+        border-radius: 16px;
+        margin-left: -30px;
+        position: absolute;
+        z-index: -9;
+        margin-top: -21px;
+    }
+    .seccion-mision {
+        width: 290px;
+        height: 684px;
+        margin: auto;
+        margin-bottom: 60px;
+        /* background-color: red; */
+    }
+    .box-cards, .box-card-team {
+        display: block;
+        justify-content: inherit;
+    }
+    .card-mision {
+        width: 240px;
+        height: 160px;
+        background-color: #fff;
+        border: 3px solid #1F2E51;
+        border-radius: 16px;
+        padding: 15px;
+        float: left;
+        margin-bottom: 30px;
+    }
+    .card-mision::before {
+        content: '';
+        width: 283px;
+        height: 203px;
+        background-color: #1F2E51;
+        border-radius: 16px;
+        margin-left: -15px;
+        position: absolute;
+        z-index: -9;
+        margin-top: -12px;
+    }
+    .card-mision p {
+        font-family: 'tt_commonsregular';
+        font-size: 16px;
+        color: #1F2E51;
+    }
+    .seccion-team{ width: 290px; }
+    .card-team {
+        width: 290px;
+        height: auto;
+        margin-bottom: 20px;
+        overflow: auto;
+    }
+    .separador{ width: 290px; }
+    .seccion-actividades{ width: 290px; margin-bottom: 20px; }
+    .card-actividades {
+        width: 225px;
+        height: 380px;
+        background-color: #fff;
+        border: 2px solid #1F2E51;
+        border-radius: 15px;
+        padding: 30px;
+    }
+    .card-actividades h1 {
+        font-size: 20px!important;
+    }
+    .card-actividades p {
+        font-size: 18px;
+    }
+    .seccion-galeria{ width: 290px; height: 295px; }
+    .card-galeria{ width: 290px; height: auto; }
+    .img-galeria {
+        width: 290px;
+        height: auto;
+        margin-left: 0;
+        overflow: auto;
+        display: block;
+    }
+    .title-galeria {
+        min-width: 255px;
+        height: 61px;
+        background-color: #fff;
+        border: 2.86651px solid #1F2E51;
+        border-radius: 15px;
+        position: absolute;
+        bottom: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9;
+    }
+    .sombra {
+        min-width: 254px;
+        height: 66px;
+        background-color: #1F2E51;
+        position: absolute;
+        bottom: 0px;
+        border: 2.86651px solid #1F2E51;
+        border-radius: 15px;
+        margin-left: 15px;
+    }
+    .seccion-testimonios{ width: 290px; }
+    .box-testi p{ font-size: 18px; }
+    .box-testi h3{ font-size: 20px; }
+    .seccion-testimonios h2{ font-size: 28px; }
+    .seccion-quees{ width: 290px; }
+    .seccion-quees p {
+    font-family: 'tt_commonsregular';
+    font-size: 18px;
+    color: #1F2E51;
+    line-height: 21px;
+    }
+    br{ display: none; }
+    .center-color{ width: 290px; }
+    .box-graf-color {
+    width: 100%;
+    height: 990px;
+    background: linear-gradient(100.98deg, #FF7552 13.83%, #DC2597 102.08%);
+    border-radius: 40px;
+    margin-top: 150px;
+    position: relative;
+    margin-bottom: 60px;
+    }
+    .center-color {
+    width: 290px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    margin-top: -150px;
+    }
+    .box-1, .box-2 {
+    width: 196px;
+    height: 295px;
+    background: #FFFFFF;
+    border: 2.86651px solid #1F2E51;
+    border-radius: 15.2881px;
+    position: relative;
+    box-shadow: 10px 10px 0px #1f2e51;
+    padding: 40px;
+    /* margin-top: -100px; */
+    float: left;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    }
+    .personaje2 {
+    width: 195px;
+    position: absolute;
+    bottom: -741px;
+    right: -20px;
+    }
+    .box-1 h1, .box-2 h1 {
+    font-family: 'tt_commonsregular';
+    font-size: 21px;
+    color: #00BBB4;
+    line-height: 26px;
+    }
+    .box-1 p, .box-2 p {
+    font-family: 'tt_commonsregular';
+    font-size: 17px;
+    color: #1F2E51;
+    line-height: 23px;
+    }
+    .box-enlace {
+    width: 230px;
+    height: 100px;
+    position: relative;
+    float: left;
+    margin-top: -75px;
+    }
+    .box-enlace p {
+    font-family: 'tt_commonsbold';
+    font-size: 17px;
+    color: #fff;
+    }
+    .small {
+    font-size: 16px!important;
+    font-family: 'tt_commonsregular'!important;
+    }
+    .box-2 {
+    right: 0;
+    height: 190px!important;
+    }
+    .seccion-form{ width: 290px; }
+    .box-form{ width: 290px; }
+    .select-tipo-form{ width: 286px; }
+    .activ-form h1 {
+    color: #fff!important;
+    font-size: 14px!important;
+    }
+    .btn-asesoria-form {
+        width: 145px;
+    }
+    .btn-reserva-form, .btn-asesoria-form{ width: 135px; }
+    .btn-reserva-form h1, .btn-asesoria-form h1{ font-size: 14px!important; }
+    .style-input input{ width: 246px;font-size: 15px!important; }
+    .style-input select{ width: 290px;font-size: 15px!important; }
+    .smallinput{ width: 99px!important; }
+    .personaje-form{ display: none; }
+    .center-footer{ width: 290px; }
+    .logo-acredita {
+    width: 135px;
+    height: auto;
+    float: right;
+    margin-top: 10px;
+    }
+
+  }
+
+
