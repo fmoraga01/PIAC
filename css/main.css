@@ -270,7 +270,7 @@ h1,h2,h3,h4,h5,h6,p{ margin: 0; padding: 0; }
         z-index: -9;
         margin-top: -36px;
     }
-    .seccion-piac h1,.seccion-mision h1,.seccion-team h1,.seccion-actividades h1,.seccion-galeria h1,.seccion-quees h1{
+    .seccion-piac h1,.seccion-mision h1,.seccion-team h1,.seccion-actividades h1,.seccion-galeria h1,.seccion-quees h1,.seccion-form h1{
         font-family: 'tt_commonsbold';
         font-size: 32px;
         color: #00BBB4;
@@ -546,7 +546,7 @@ h1,h2,h3,h4,h5,h6,p{ margin: 0; padding: 0; }
     margin: auto;
     margin-top: 30px;
 }
-.slick-dots{ bottom: -35px!important; }
+.slick-dots{ bottom: -50px!important; }
 .seccion-quees{
    width: 1100px;
     height: 220px;
@@ -628,7 +628,6 @@ h1,h2,h3,h4,h5,h6,p{ margin: 0; padding: 0; }
         height: 127px;
         background-color: #011C2D;
         float: left;
-        margin-top: 200px;
     }
     .center-footer{
         width: 1200px;
@@ -647,6 +646,168 @@ h1,h2,h3,h4,h5,h6,p{ margin: 0; padding: 0; }
         float: right;
     }
 
+    .slick-dots li button {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 20px;
+        height: 5px;
+        padding: 3px;
+        cursor: pointer;
+        /* color: transparent; */
+        border: 0;
+        outline: none;
+        /* background: transparent; */
+        border-radius: 10px;
+        background-color: #E4E8F6;
+    }
+    .slick-dots li.slick-active button:before {
+        opacity: .75;
+        color: black;
+        background-color: #FF5100;
+        width: 20px;
+        height: 5px;
+        border-radius: 10px;
+    }
+    .slick-dots li button:before{ font-size: 0px; }
 
+    .seccion-form{
+        width: 1100px;
+        height: 850px;
+        /*background-color: red;*/
+        margin: auto;
+        margin-bottom: 60px;
+        margin-top: 100px;
+    }
+    .seccion-form p{
+        font-size: 20px!important;
+        font-family: 'tt_commonsregular'!important;
+        color: #1F2E51;
+    }
+    .box-form{
+        width: 465px;
+        height: 590px;
+        /*background-color: blue;*/
+        float: left;
+        margin-top: 50px;
+    }
+    .personaje-form {
+        width: 580px;
+        height: auto;
+        float: right;
+        margin-top: 120px;
+    }
+    .select-tipo-form{
+        width: 461px;
+        height: 60px;
+        background: #FFFFFF;
+        border: 2px solid #1F2E51;
+        border-radius: 100px;
+    }
+    .btn-reserva-form, .btn-asesoria-form{
+        width: 190px;
+        height: 50px;
+        border-radius: 100px;
+        /*background-color: red;*/
+        margin-top: 5px;
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        float: left;
+        -moz-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+    }
+    .btn-reserva-form:hover >h1, .btn-asesoria-form:hover >h1{
+        color: #fff;
+    }
+    .btn-reserva-form:hover, .btn-asesoria-form:hover{
+        background-color: #00BBB4;
+    }
+    .btn-asesoria-form{
+        width: 255px;
+    }
+    .btn-reserva-form h1, .btn-asesoria-form h1{
+        font-size: 18px;
+        font-family: 'tt_commonsregular'!important;
+        color: #1F2E51;
+        margin-bottom: 0px;
+    }
+    .activ-form{
+        background-color: #00BBB4;
+    }
+    .activ-form h1{ color: #fff!important; }
+    .box-form-reserva{margin-top: 10px;}
+    .style-input input {
+        width: 421px;
+        height: 17px;
+        background: #FFFFFF;
+        border: 2px solid #1F2E51;
+        border-radius: 100px;
+        text-decoration: none;
+        font-size: 20px!important;
+        font-family: 'tt_commonsmedium'!important;
+        color: #1F2E51;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .smallinput{
+        width: 186px!important;
+    }
+    .style-input select {
+        width: 465px;
+        height: 60px;
+        background: #FFFFFF;
+        border: 2px solid #1F2E51;
+        border-radius: 100px;
+        text-decoration: none;
+        font-size: 20px!important;
+        font-family: 'tt_commonsmedium'!important;
+        color: #1F2E51;
+        padding: 15px;
+        margin-bottom: 10px;
+        display: block;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        background-image: url(../img/arrow.png);
+        background-repeat: no-repeat;
+        background-size: 15px;
+        background-position: 420px;
+    }
+    .style-input input:focus-visible, .style-input select:focus-visible{
+        outline: 0;
+    }
+    ::placeholder { color: #1F2E51; font-family: 'tt_commonsmedium'!important; }
+    .btn-envia {
+        width: 90px;
+        height: 55px;
+        display: block;
+        background-color: #FF7552;
+        border-radius: 45px;
+        transition: all .3s;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .btn-envia p {
+        font-family: 'tt_commonsmedium'!important;
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+        line-height: 55px;
+    }
+    .btn-envia:hover{
+        background-color: #FF7D71!important;
+    }
+    .box-form-asesoria{
+        width: 100%;
+        height: 400px;
+        background-color: red;
+        margin-top: 10px;
+        display: none;
+    }
 
 

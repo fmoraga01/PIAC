@@ -28,7 +28,7 @@
                         <li><a href="#actividades">Actividades</a></li>
                         <li><a href="#galeria">Galería</a></li>
                         <li><a href="#testimonios">Testimonios</a></li>
-                        <li><a href="#Repositorio">Repositorio</a></li>
+                        <li><a href="#repositorio">Repositorio</a></li>
                         <li class="btn-reserva"><a href="#reserrvasala">Reserva de Salas</a></li>
                         <li class="btn-asesoria"><a href="#asesoria">Asesorías Individuales</a></li>
                     </ul>
@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="wrapper">
-            <div class="slider-home">
+            <div id="inicio" class="slider-home">
                 <div class="center-slider-home">
                     <div class="box-text-slide">
                         <h1>Programa de Acompañamiento UBB</h1>
@@ -79,7 +79,7 @@
             </div>
             <!---FIN seccion contacto-->
             <!--seccion que es PIAC-->
-            <div class="seccion-piac">
+            <div id="nosotros" class="seccion-piac">
                 <h1>Qué es el Piac</h1>
                 <p>Es un Programa Integral de Acompañamiento al estudiante, comprometido a disminuir las tasas de deserción y 
 a mejorar la titulación oportuna de los y las estudiantes de la universidad. Para ello, durante todo el año se realizarán distintas actividades diseñadas especialmente para ustedes, tales como: </p>
@@ -155,7 +155,7 @@ a mejorar la titulación oportuna de los y las estudiantes de la universidad. Pa
             <!---FIN seccion team-->
             <div class="separador"></div>
             <!--seccion actividades-->
-            <div class="seccion-actividades">
+            <div id="actividades" class="seccion-actividades">
                 <h1>Actividades</h1>
                 <div class="box-slider-actividades">
                     <div class="initactividades">
@@ -256,7 +256,7 @@ a mejorar la titulación oportuna de los y las estudiantes de la universidad. Pa
             </div>
             <!--FIN seccion actividades-->
             <!--seccion galeria-->
-            <div class="seccion-galeria">
+            <div id="galeria" class="seccion-galeria">
                 <h1>Galería</h1>
                 <div class="initgaleria">
                     <div>
@@ -316,7 +316,7 @@ a mejorar la titulación oportuna de los y las estudiantes de la universidad. Pa
             </div>
             <!--FIN seccion galeria-->
             <!--Seccion testimonios-->
-            <div class="seccion-testimonios">
+            <div id="testimonios" class="seccion-testimonios">
                 <h2>Testimonios</h2>
                 <div class="inittestimonios">
                     <div>
@@ -340,7 +340,7 @@ a trabajar con otros. Espero más talleres!!!</p>
             <!--Fin Seccion testimonios-->
             <div class="separador"></div>
             <!--seccion que es el repositorio-->
-            <div class="seccion-quees">
+            <div id="repositorio" class="seccion-quees">
                 <h1>¿Que es el repositorio digital PIAC-UBB?</h1>
                 <p>Es una plataforma de recursos académicos dirigida a <br> estudiantes de <span class="highlight">2do y 3er año académico</span> pertenecientes <br> a carreras con altas tasas de deserción.</p>
             </div>
@@ -369,6 +369,45 @@ a trabajar con otros. Espero más talleres!!!</p>
                     </div>
                 </div>
             </div>
+            <!--seccion form-->
+            <div class="seccion-form">
+                <h1>Inscripciónes </h1>
+                <p>Mediante este formulario podrás hacer una solicitud para utilizar el espacio PIAC.</p>
+                <p>Una vez completado, nos contactaremos contigo mediante correo electrónico</p>
+                <p>para confirmar la reserva.</p>
+                <div class="box-form">
+                    <div class="select-tipo-form">
+                        <div class="btn-reserva-form activ-form">
+                            <h1>Reserva de salas</h1>
+                        </div>
+                        <div class="btn-asesoria-form">
+                            <h1>Asesorías individuales</h1>
+                        </div>
+                    </div>
+
+                    <div class="box-form-reserva style-input">
+                        <input type="text" name="Nombre" placeholder="Nombre">
+                        <input type="text" name="Correo" placeholder="Correo electrónico UBB">
+                        <select name="espacio">
+                          <option value="value1"selected>Seleccione el espacio que deseas ocupar</option>
+                          <option value="value2">Espacio 1</option>
+                          <option value="value3">Espacio 2</option>
+                        </select>
+                        <input type="text" name="actividad" placeholder="Actividad">
+                        <input class="smallinput" type="text" name="dia" placeholder="(Día/Mes)">
+                        <input class="smallinput" type="text" name="hora" placeholder="Hora">
+                        <input type="text" name="Cantidad Horas" placeholder="Cantidad de Horas">
+                        <div class="btn-envia">
+                            <p>Enviar</p>
+                        </div>
+                    </div>
+                    <div class="box-form-asesoria">
+                        
+                    </div>
+                </div>
+                <div class="personaje-form"><img src="img/personaje-form.png" width="100%"></div>
+            </div>
+            <!--FIN SECCION FORM-->
         </div>
         <div class="footer">
             <div class="center-footer">
