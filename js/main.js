@@ -18,7 +18,7 @@ function open_form_reserva(){
 }
 
 jQuery(document).ready(function($) {
-	$('a[href*=#]:not([href=#])').click(function() {
+        $("a[href*="#"]:not([href="#"])").click(function() {
 	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 	      var target = $(this.hash);
 	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -72,9 +72,15 @@ jQuery(document).ready(function($) {
   	$('.btn-asesoria-form').click(function(event) {
   		open_form_asesoria();
   	});
-  	$('.btn-reserva-form').click(function(event) {
-  		open_form_reserva()
-  	});
+        $(".btn-reserva-form").click(function(event) {
+                open_form_reserva();
+        });
+        $(".btn-reserva a").click(function(event) {
+                open_form_reserva();
+        });
+        $(".btn-asesoria a").click(function(event) {
+                open_form_asesoria();
+        });
 
   	
   	
